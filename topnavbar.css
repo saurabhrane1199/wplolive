@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */	
+	#topBar 
+	{
+	background-color:#e63900;
+	overflow: hidden;
+	height: 90px;
+	width: 100%;
+	margin: 0%;
+	padding-top: 0%;
+	padding-right: 0%;
+	padding-left: 0%;
+	/* [disabled]padding-bottom: 0%; */
+	padding-top: 0%;
+	padding-right: 0%;
+	padding-left: 0%;
+	padding-bottom: 0%;
+	}
+	
+.mySlides {display:none;}
+
+
+
+
+
+#topBar a {
+    float: left;
+    color: #262626;
+	text-align: center;
+	padding: 8px;
+	text-decoration: none;
+    font-size: 17px;
+	font-weight: bold;
+}
+
+#topBarC{
+	padding-left: 210px;
+	padding-top: 30px;
+	font-size: 25px;
+	text-align: center;
+	margin-right: 50px;
+	
+	
+}
+
+#topBarC a{
+	color:#242424;
+	margin-left:140px;
+	font-family:"Casanova Scotia";
+	font-stretch:ultra-expanded;
+}
+
+#topBarleft{
+	float:right;
+	padding-right: 10px;
+	padding-top:-200px;
+}
+
+
+
+
+#topBarC a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+	
+	
+	

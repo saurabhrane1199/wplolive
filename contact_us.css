@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ctus{
+	margin-left: 25px;
+	margin-top: 25px;
+}
+
+.ctus p{
+	font-size: 25px;
+	color:#e63900;
+}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" type="text/css" href="topnavbar.css">
+<link rel="stylesheet" type="text/css" href="contact_us.css">
+<title>Contact Us</title>
+</head>
+<body style="background-color: #242424; margin: 0px;">
+	<div id="topBar">
+			<a href="main.html"><img alt="Ecstasy Foods" src="images/LOGO_SMALL_B.png" width="63px" height="78px" id="logo"></a>
+			<div id="topBarC">
+			<a class="tnav-c" href="main.html">HOME</a>
+			<a class="tnav-c" href="order.html">ORDER</a>
+			<a class="tnav-c" href="offers.html">OFFERS</a>
+			<a class="tnav-c" href="contact_us.html">CONTACT US</a>		
+			</div>
+			<div id="topBarleft">	
+			<a href="login.html"> <img alt="user_login" width="25px" height="25px" src="images/user.png"></a>
+			</div>
+	</div>
+	<div class="ctus">
+	<div id="map" style="width:35%;height:400px"></div>
+	<p>Address:<br>Bhavan's Campus, Old D N Nagar, Munshi Nagar, Andheri West,<br> Mumbai, Maharashtra 400058</p>
+	<p><img src="images/telephone.png" width="25px" height="25px">&nbsp;&nbsp;+91 9820877533&nbsp;&nbsp;
+	<a href="https://www.facebook.com/" target="_blank"><img id="fbimg" src="images/facebook-logo-button.png" width="25px" height="25px"></a>&nbsp;&nbsp;
+	<a href="https://twitter.com/" target="_blank"><img id="twimg" src="images/twitter-logo-button.png" width="25px" height="25px"></a><br>	
+	</div>	
+
+<script>
+function myMap() {
+  var myCenter = new google.maps.LatLng(19.123283,72.836101);
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {center: myCenter, zoom: 5};
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  var marker = new google.maps.Marker({position:myCenter});
+  marker.setMap(map);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+
+	
+</body>
+</html>
