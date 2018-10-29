@@ -1,5 +1,15 @@
 @charset "utf-8";
 /* CSS Document */
+
+.navbar{
+	border-top:none;
+	border-bottom: none;
+}
+
+
+
+
+
 .cd{
 	border-color: #e63900;
 	

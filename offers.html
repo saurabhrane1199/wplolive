@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OLIVE FOODS || DRINKS</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Anton|Fredoka+One|Niramit|Patua+One" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="loop.js"></script>
+<style>
+	nav .active
+	{
+		border-bottom: 5px solid white;
+	}
+	.navbar-brand
+	{
+		margin-top: -15px;
+	}
+	
+	
+</style>
+
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top" style="color:white; font-family:'Niramit',sans-serif; ">
+  		<div class="container-fluid">
+    		<div class="navbar-header">
+      			<a class="navbar-brand" href="main_1.html"><img src="fimages/FINAL_LOGO.png" width="40px" height="49.5px"></a>
+    		</div>
+    	<ul class="nav navbar-nav">
+      		<li class="active"><a href="main_1.html">Home</a></li>
+      		<li><a href="order.html">Order</a></li>
+      		<li><a href="#">Offers</a></li>
+	  		<li><a href="#">Contact Us</a></li>
+    	</ul>
+    	<ul class="nav navbar-nav navbar-right">
+      		<li><a href="#" data-toggle="modal" data-target="#signup"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      		<li><a href="#" data-toggle="modal" data-target="#login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+	  		<li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+    	</ul>
+  		</div>
+	</nav>
+	<!--Navigation Bar Ends-->
+  
+	<!--modal starts-->
+	<div class="modal fade" id="login" role="dialog" >
+    
+		<div class="modal-dialog">
+        <div class="modal-content" style="border-radius:5px;">
+        <div class="modal-header text-center" style="padding:35px 50px; background-color:#2D2D2D; color:white;">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2><span class="fa fa-user icon"></span> Login</h2>
+        </div>
+        <div class="modal-body" style="padding:40px 50px; margin-top: -2px; background-color:white; color:#000000;">
+          <form role="form">
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter Username" required>
+            </div>
+            <div class="form-group">
+              <label for="psw"><span class="fa fa-key icon"></span> Password</label>
+              <input type="text" class="form-control" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder="Enter password" required>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="" checked>Remember me</label>
+            </div>
+              <button type="submit" class="btn btn-block btn-success" style="background-color:#ffd13d;border-color: #ffd13d;"> Login</button>
+          </form>
+        </div>
+        <div class="modal-footer" style="background-color:#2D2D2D; border:none;">
+          <button type="submit" class="btn btn-default pull-left" data-dismiss="modal" style="background-color:black;color:white; border-color: black" ><span class="glyphicon glyphicon-remove" ></span> Cancel</button>
+ 
+          <p style="color: white;">Forgot <a href="#" class="mp">Password?</a></p>
+          <p style="color: white;">Not a member? <a href="#" class="mp">Sign Up</a></p>
+        </div>
+      </div>
+      
+    </div>
+	  <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+  </div> 
+</body>
+</html>
